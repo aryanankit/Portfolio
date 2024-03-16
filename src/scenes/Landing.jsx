@@ -7,7 +7,7 @@ const Landing = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
     <section
-      id="hme"
+      id="home"
       className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10"
     >
       {/* IMAGE SECTION */}
@@ -18,7 +18,7 @@ const Landing = ({ setSelectedPage }) => {
             before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1]"
           >
             <img
-              alt="profil"
+              alt="profile"
               className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
               src="assets/profile-image.png"
             />
@@ -87,7 +87,7 @@ const Landing = ({ setSelectedPage }) => {
             href="#contact"
           >
             <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
-              Lets talk.
+              Let's talk.
             </div>
           </AnchorLink>
         </motion.div>

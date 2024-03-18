@@ -19,7 +19,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="contact py-48">
-      {/* HEADINGS */}
+
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -41,7 +41,6 @@ const Contact = () => {
         </div>
       </motion.div>
 
-      {/* FORM & IMAGE */}
       <div className="md:flex md:justify-between gap-16 mt-5">
         <motion.div
           initial="hidden"

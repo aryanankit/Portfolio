@@ -22,7 +22,7 @@ const Testimonials = () => {
         <LineGradient width="mx-auto w-2/5" />
         <p className="mt-10">
           Here's What People are Saying About My Work. Aliquam aliquet integer
-          ut fames odio in at. At magna ornare dictum lectus.
+          ut fames odio in at. At  ornare dictum lectus.
         </p>
       </motion.div>
 
@@ -42,7 +42,7 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea.
+            A auctor pharetra hendrerit  amet etiam interdum platea.
           </p>
         </motion.div>
 
@@ -60,7 +60,7 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Aliquam aliquet integer ut fames odio in at. At magna ornare dictum
+            Aliquam aliquet integer  fames odio in at. At magna ornare dictum
             lectus.
           </p>
         </motion.div>
@@ -79,7 +79,7 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Fames odio in at. At magna ornare dictum lectus.
+            Fames odio in at. At magna ornare  lectus.
           </p>
         </motion.div>
       </div>

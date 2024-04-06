@@ -47,8 +47,8 @@ const Testimonials = () => {
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-red max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person2"
+          className="mx-auto  relative bg-red max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+            before:absolute  before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -60,8 +60,8 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Aliquam aliquet integer  fames odio in ofc at. At magna ornare dictum
-            lectus.
+            Aliquam aliquet integer  fames odio  ofc at. At magna ornare dictum
+            lectus in.
           </p>
         </motion.div>
 
@@ -79,7 +79,7 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Fames odio in at. At magna ornare  lectus.
+            Fames odio  at in. At magna ornare  lectus.
           </p>
         </motion.div>
       </div>
